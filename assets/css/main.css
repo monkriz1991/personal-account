@@ -1,0 +1,441 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .container:before,
+  .container:after {
+    display: table;
+    content: " ";
+  }
+  
+  .container:after {
+    clear: both;
+  }
+  
+  .container:before,
+  .container:after {
+    display: table;
+    content: " ";
+  }
+  
+  .container:after {
+    clear: both;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      width: 1080px;
+    }
+  }
+  
+
+.index-link{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.index-link button{
+    padding: 0;
+}
+.index-link a{
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 20px;
+    display: inline-block;
+}
+
+.body-cabinet {
+    background: #f7f7f7;
+}
+.cabinet{
+    float: left;
+    width: 100%;
+    padding: 40px 0 40px 40px;
+        margin: 40px 0;
+}
+.cabinet-bonus{
+    float: left;
+    width: 100%;
+}
+.cabinet-bonus-cart{
+    float: left;
+    width: 50%;
+    padding: 0 30px 0 0;
+}
+.cabinet-bonus-cart-block{
+    float: left;
+    width: 100%;
+    padding: 20px;
+    border-radius: 6px;
+    background: linear-gradient(87deg,#f3b344,#f57d36)!important;
+}
+.bonus-cart-title{
+    display: block;
+    color: #fff;
+    text-transform: none;
+    font-weight: 500;
+    font-size: 19px;
+    margin: 20px 0 20px;
+    letter-spacing: 3px;
+    text-shadow: 0px 1px 0px #fe6906;
+}
+.cabinet-bonus-cart-block>span{
+
+}
+.cabinet-bonus-miles{
+    float: left;
+    width: 50%;
+    padding: 0 20px;
+    /* -webkit-box-shadow: 0 0 2rem 0 rgb(136 152 170 / 15%); */
+    border-radius: 6px;
+    /* background: #fff;*/
+}
+.bonus-miles-count{
+    margin: 0 0 20px;
+}
+.bonus-miles-count-block{
+
+}
+.bonus-miles-progress{
+    margin: 0 0 15px;
+}
+.bonus-miles-progress>strong{
+    font-weight: 500;
+    font-size: 13px;
+    margin: 0 0 5px;
+    display: inline-block;
+}
+.bonus-miles-progress-count{
+    float: right;
+    font-weight: 700;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 1.2;
+    padding: 2px 0 0;
+}
+.bonus-miles-progress-count span{
+
+}
+.bonus-miles-progress-count b{
+    margin: 0px 4px;
+    font-size: 9px;
+    position: relative;
+    top: -2px;
+}
+.bonus-miles-count-block>strong{
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 1;
+}
+.bonus-miles-count-block>span{
+    line-height: 1;
+    display: block;
+    font-size: 14px;
+}
+.bonus-miles-progress .progress{
+    width: 100%;
+}
+.bonus-miles-progress .progress-bar{
+    background-color: #e98558;
+    border-radius: 4px;
+}
+.bonus-miles-progress i{
+    width: 15px;
+    float: left;
+    line-height: 1.7;
+    text-align: left;
+    margin: 0 0 0 -5px;
+}
+.bonus-miles-info{
+    margin: 0 0 20px;
+    font-size: 13px;
+    line-height: 1.3;
+    color: #6a6a71;
+    padding: 0 20% 0 0;
+}
+.el-progress__text {
+    line-height: 1.6;
+    font-size: 12px !important;
+    float: right;
+}
+.cabinet-user{
+    float: left;
+    width: 100%;
+    margin: 0 0px 40px;
+    text-align: right;
+    font-size: 15px;
+    font-weight: 600;
+}
+.cabinet-user .el-avatar{
+    float: right;
+    margin: 0 0px 0 10px;
+}
+.cabinet-user-phone{
+    font-size: 12px;
+}
+.cabinet-user .b-avatar{
+    float: right;
+    margin: 0 0 0 15px;
+}
+.bonus-cart-sttus{
+
+}
+.bonus-cart-sttus{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background: #ba771f;
+    font-size: 19px;
+    padding: 10px 0 0 7px;
+    font-weight: 700;
+    color: #fff;
+    box-shadow: 0 4px 24px 0 rgb(195 106 47);
+    float: left;
+}
+.bonus-cart-id{
+    font-size: 14px;
+    color: #fff;
+}
+.bonus-cart-date{
+    float: right;
+    margin: 13px 0 0;
+    color: #fff;
+}
+.cabinet-sidebar{
+    float: left;
+    width: 100%;
+    margin: 160px 0 0 0;
+}
+.cabinet-sidebar .list-group-item{
+    background-color: transparent; 
+    border: 0px solid rgba(0, 0, 0, 0.125);
+}
+.cabinet-sidebar .list-group-item.active {
+    z-index: 2;
+    color: #ff6a28;
+    background-color: transparent;
+    border-color: transparent;
+}
+.cabinet-sidebar .collapse>a {
+    padding-left: 40px;
+}
+.cabinet-form {
+    float: left;
+    width: 100%;
+    padding: 40px 0 40px 40px;
+    margin: 40px 0;
+}
+.cabinet-form label{
+    float: left;
+    width: 30%;
+    margin: 0;
+    color: #6a6a71;
+    font-size: 14px;
+    margin: 0;
+    height: 32px;
+    display: flex !important;
+    align-items: center;
+    line-height: 1.6;
+    font-weight: 500;
+}
+.cabinet-form input:hover{
+    background: #e3e3e866;
+    transition: .2s;
+    cursor: pointer;
+}
+.cabinet-form .form-control:focus,.cabinet-form .form-control:active {
+    color: #495057;
+    background-color: #e3e3e866;
+    border-color: #ff6a28;
+    outline: 0;
+    box-shadow: 0 0 0 0 transparent;
+}
+.cabinet-form input{
+    color: #262626;
+    font-size: 14px;
+    margin: 0;
+    height: 34px;
+    align-items: center;
+    line-height: 1.6;
+    font-weight: 500;
+    border: none;
+    background: #f3f3f3;
+}
+.cabinet-form .form-group{
+    
+    padding: 10px 25px;
+    margin: 0px 0 2px;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #f1f1f4;
+}
+.cabinet-form .form-group:last-child{
+    border-bottom: 0px solid #f1f1f4;
+}
+.cabinet-form .butt-save{
+    padding: 10px 26px;
+    height: 48px;
+    font-size: 14px;
+}
+.cabinet-form-block{
+    background: #fff;
+    border-radius: 6px;
+    float: left;
+    width: 100%;
+    margin: 0 0 25px;
+}
+.cabinet-form .form-group>div{
+    float: left;
+    width: 70%;
+    margin: 0;
+}
+.body-cabinet header,#menu {
+    background-color: #f7f7f7 !important;
+}
+.body-cabinet #menu .menu-line {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 15px;
+    border-radius: 0px;
+    background: transparent;
+    width: 100%;
+    box-shadow: 3px 3px 9px 0 rgb(255 255 255 / 0%);
+    border-bottom: 1px solid #bfbfbf;
+}
+.body-cabinet .tmenu {
+    color: #1c1b1b;
+    display: inline-block;
+    font-weight: 400;
+    padding: 1px 0 0 15px;
+    font-size: 14px;
+    line-height: 1.7;
+    text-transform: none !important;
+}
+.body-cabinet .modern_dropdown_new .dropdown-toggle{
+    line-height: 1.7;
+    text-transform: none;
+    font-size: 14px;
+    color: #1c1b1b;
+    font-weight: 400;
+}
+.body-cabinet footer,.body-cabinet footer .devider,.body-cabinet footer .main_footer{
+    background-color: #f7f7f7;
+   
+}
+.body-cabinet footer{
+ margin: 40px 0 0;
+}
+.body-cabinet .devider-content-wrapper{
+    border-top: 1px solid #e2e2e2;
+}
+ .body-cabinet footer .devider .devider-content-wrapper .bottom_menu ul li a{
+    color: #333;
+    font-size: 13px;
+}
+.cabinet-rent{
+    float: left;
+    width: 100%;
+    padding: 40px 0 40px 40px;
+    margin: 40px 0;
+}
+.cabinet-rent-car{
+    background: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    margin: 0 0 10px;
+}
+ .body-cabinet footer .devider .devider-content-wrapper .copy p{
+    margin: 0;
+    color: #ff6a28;
+}
+.cabinet-rent{
+    float: left;
+    width: 100%;
+    padding: 40px 0 40px 40px;
+    margin: 80px 0;
+}
+.cabinet-rent-car{
+    background: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    margin: 0 0 10px;
+    border: 1px solid #e2e2e2;
+    line-height: 1.6;
+    font-size: 15px;
+}
+.form-login{
+    max-width: 550px;
+    margin: 50px auto 0;
+    padding: 30px;
+    /* border: 1px solid #e2e2e2; */
+    border-radius: 8px;    
+}
+.vue-tel-input {
+    display: flex;
+    border: 1px solid #bbb;
+    text-align: left;
+    line-height: 24px;
+    margin: 0 0 22px;
+    border-radius: 4px;
+}
+.form-login .login-button{
+    margin: 30px 0 0;
+}
+.el-notification__content p {
+    text-align: left;
+}
+.cabinet-sidebar .el-menu-item{
+    height: auto;
+    line-height: 0px;
+    padding: 0 0px !important;
+}
+.cabinet-sidebar .el-menu-item a,.cabinet-sidebar .el-menu-item span{
+    height: 56px;
+    line-height: 56px;
+    font-size: 14px;
+    color: #303133;
+    padding: 0 20px;
+    text-decoration: none;
+    display: block;
+}
+.h1-form{
+    margin: 60px 0;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+}
+.form-back{
+    display: block;
+    color: #ff7100;
+    cursor: pointer;
+    text-align: center;
+}
+.form-back i{
+    font-weight: 700;
+    font-size: 0.8em;
+}
